@@ -1,0 +1,27 @@
+
+# Setup
+title:               Leoluyi
+tagline:             "About Data Science Works"
+description:         'My journey learning data science.'
+permalink:           /:categories/:title
+baseurl:             ""
+url:                 https://leoluyi.tw
+
+spaginate:           5
+paginate:            5
+
+# About/contact
+author:
+  name:              Leo - Lu Yi
+  url:               https://twitter.com/leo_luyi
+  email:             leo0650@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
