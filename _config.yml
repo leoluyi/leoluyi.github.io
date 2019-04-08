@@ -9,13 +9,13 @@ url:                 https://leoluyi.tw
 port: 4000
 safe: true
 
-# BUILD SETTINGS
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-rdiscount:
-  extensions: [smart]
+# Build Settings
+# highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+# rdiscount:
+#   extensions: [smart]
 spaginate:           5
 paginate:            5
 
@@ -24,6 +24,7 @@ author:
   name:              Leo - Lu Yi
   url:               https://twitter.com/leo_luyi
   email:             leo0650@gmail.com
+avatar: profile.jpg
 
 # Custom vars
 version:             1.0.0
