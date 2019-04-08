@@ -7,15 +7,15 @@ permalink:           /:categories/:title
 baseurl:             ""
 url:                 https://leoluyi.tw
 port: 4000
-safe: true
+safe: false
 
 # Build Settings
-# highlighter: rouge
-# markdown: kramdown
-# kramdown:
-#   input: GFM
-# rdiscount:
-#   extensions: [smart]
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+rdiscount:
+  extensions: [smart]
 spaginate:           5
 paginate:            5
 
