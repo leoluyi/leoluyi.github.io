@@ -6,7 +6,16 @@ description:         'My journey learning data science.'
 permalink:           /:categories/:title
 baseurl:             ""
 url:                 https://leoluyi.tw
+port: 4000
+safe: true
 
+# BUILD SETTINGS
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+rdiscount:
+  extensions: [smart]
 spaginate:           5
 paginate:            5
 

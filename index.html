@@ -3,10 +3,12 @@ layout: default
 title: Home
 ---
 
+<h1></h1>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
@@ -14,7 +16,11 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    {% if post.excerpt != post.content %}
+      <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
