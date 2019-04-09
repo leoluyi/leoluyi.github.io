@@ -1,6 +1,6 @@
 
 # Setup
-title:               Leoluyi
+title:               Leoluyi 呂奕
 tagline:             "About Data Science Works"
 description:         'My journey learning data science.'
 permalink:           /:categories/:title
@@ -20,23 +20,25 @@ rdiscount:
 #   - Gemfile
 #   - Gemfile.lock
 
+# Pagination
 spaginate: 5
 paginate: 5
-paginate_path: 'blog/page:num'
-
+paginate_path: '/blog/page/:num'
 # pagination:
-#   enabled: true
 #   debug: true
 #   collection: 'posts'
-#   paginate: 5
-#   paginate_path: '/page/:num/'
+#   per_page: 5
+#   permalink: '/page/:num/'
+
+disqus: leoluyi
+google_analytics: UA-515255-3
 
 # About/contact
 author:
-  name:              Leo - Lu Yi
+  name:              呂奕 Leo - Lu Yi
   url:               https://twitter.com/leo_luyi
   email:             leo0650@gmail.com
-avatar: profile.jpg
+  avatar: profile.jpg
 
 # Custom vars
 version:             1.0.0

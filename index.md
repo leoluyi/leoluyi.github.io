@@ -6,7 +6,7 @@ title: Home
 # <strong>Hi, I'm Leo Lu</strong>
 
 <div class="avatar">
-  <img class="img-circle" src="{{ site.baseurl }}/public/img/{{ site.avatar }}" alt="Responsive image" width="180" height="auto">
+  <img class="img-circle" src="{{ site.baseurl }}/public/img/{{ site.author.avatar }}" alt="Responsive image" width="180" height="auto">
 </div>
 
 <!-- <img src="./public/img/jn2.png" style="float:right;width:10em;margin-top:1em;margin-left:2em;"> -->
