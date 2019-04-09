@@ -10,7 +10,7 @@ layout: default
     <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
   {% endfor %}
   ]</span>
-  <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+  <span class="post-date">{{ page.date | date: "%b %d, %Y" }}</span>
   {{ content }}
 </div>
 
