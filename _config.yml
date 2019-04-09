@@ -35,9 +35,11 @@ google_analytics: UA-515255-3
 
 # About/contact
 author:
-  name:              呂奕 Leo - Lu Yi
-  url:               https://twitter.com/leo_luyi
-  email:             leo0650@gmail.com
+  name: 呂奕 Leo - Lu Yi
+  email: leo0650@gmail.com
+  twitter: leo_luyi
+  linkedin: leoluyi
+  github: leoluyi
   avatar: profile.jpg
 
 # Custom vars
