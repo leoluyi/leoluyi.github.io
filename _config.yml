@@ -16,11 +16,11 @@ kramdown:
   input: GFM
 rdiscount:
   extensions: [smart]
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
 
-# spaginate: 5
+spaginate: 5
 paginate: 5
 paginate_path: '/page:num'
 
