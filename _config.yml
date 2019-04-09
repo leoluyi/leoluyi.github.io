@@ -7,7 +7,7 @@ permalink:           /:categories/:title
 baseurl:             ""
 url:                 https://leoluyi.tw
 port: 4000
-safe: false
+# safe: false
 
 # Build Settings
 highlighter: rouge
@@ -16,8 +16,20 @@ kramdown:
   input: GFM
 rdiscount:
   extensions: [smart]
-spaginate:           5
-paginate:            5
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# spaginate: 5
+paginate: 5
+paginate_path: '/page:num'
+
+# pagination:
+#   enabled: true
+#   debug: true
+#   collection: 'posts'
+#   paginate: 5
+#   paginate_path: '/page/:num/'
 
 # About/contact
 author:
