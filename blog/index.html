@@ -21,7 +21,7 @@ pagination:
     {{ post.content }}
 
     {% if post.excerpt != post.content %}
-      <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+      <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a></p>
     {% endif %}
   </div>
   <hr/>
