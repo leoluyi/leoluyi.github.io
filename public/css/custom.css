@@ -40,6 +40,14 @@ blockquote p:lang(zh){
 }
 
 .social {
-  word-spacing: 12px;
+  word-spacing: 0.8rem;
 }
 
+section.container {
+  padding: 0;
+  margin: 2.5rem 0;
+}
+
+.page-heading {
+  margin-bottom: 1rem;
+}

@@ -7,7 +7,7 @@ permalink:           /:categories/:title
 baseurl:             ""
 url:                 https://leoluyi.tw
 port: 4000
-safe: false
+safe: true
 
 # Build Settings
 highlighter: rouge

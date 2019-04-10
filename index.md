@@ -22,3 +22,25 @@ Following the acquisition, I transitioned into data science.
 <!-- Convertkit - Start -->
 <!-- <script async id="_ck_148263" src="https://forms.convertkit.com/148263?v=6"></script> -->
 <!-- Convertkit - End -->
+
+<section class="container">
+  <h2 class="page-heading">Latest Posts</h2>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      {% for post in site.posts limit:5 %}
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <span style="float:right">
+            {{ post.date | date: "%b %d, %Y" }}
+          </span>
+        </div>
+        <div class="col-sm-9 col-md-9 col-lg-9">
+          <span style="float:left">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
