@@ -1,7 +1,7 @@
 
 # Setup
 title:               Leoluyi 呂奕
-tagline:             "About Data Science Works"
+tagline:             "Coding with Data"
 description:         'My journey learning data science.'
 permalink:           /:categories/:title
 baseurl:             ""

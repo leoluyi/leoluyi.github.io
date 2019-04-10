@@ -38,3 +38,8 @@ h3, h4, h5, h6, p, table, img, a, ul, li:lang(zh) {
 blockquote p:lang(zh){
   font-family: "Avenir Next", "PT Sans", "STKaiti", "Kaiti", "cwTeXKai", "Microsoft JhengHei", sans-serif;
 }
+
+.social {
+  word-spacing: 12px;
+}
+

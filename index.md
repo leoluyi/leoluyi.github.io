@@ -5,11 +5,11 @@ title: Home
 
 # <strong>Hi, I'm Leo Lu</strong>
 
-<div class="avatar">
-  <img class="rounded-circle" src="{{ site.baseurl }}/public/img/{{ site.author.avatar }}" alt="Responsive image" width="180px" height="auto" align='right'>
-</div>
+{% include social.html %}
 
-<!-- <img src="./public/img/jn2.png" style="float:right;width:10em;margin-top:1em;margin-left:2em;"> -->
+<div class="avatar">
+  <img class="rounded-circle" src="{{ site.baseurl }}/public/img/{{ site.author.avatar }}" alt="Responsive image" width="180px" height="auto" align="right" style="float:right;margin-top:0.5em;margin-left:1em;">
+</div>
 
 <!-- Data Science -->
 In 2012, a year out of business college, I decided to drop everything and learn to code.
@@ -22,5 +22,3 @@ Following the acquisition, I transitioned into data science.
 <!-- Convertkit - Start -->
 <!-- <script async id="_ck_148263" src="https://forms.convertkit.com/148263?v=6"></script> -->
 <!-- Convertkit - End -->
-
-{% include social.html %}
