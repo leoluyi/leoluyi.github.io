@@ -96,3 +96,110 @@ section.container {
     color: #fdfdfd;
     text-decoration: none;
 }
+
+
+/* ============================================================ */
+/* Post Index */
+/* ============================================================ */
+.post-list {
+  list-style: none;
+  padding-inline-start: 10px;
+}
+
+.post-stub {
+  border-bottom: 1px dotted #303030;
+  margin: 0;
+  position: relative;
+}
+.post-stub:first-child {
+  padding-top: 0;
+}
+.post-stub h4 {
+  font-weight: 600
+}
+.post-stub a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  color: #424242;
+  padding: 20px 5px;
+}
+.post-stub a:hover {
+  text-decoration: none;
+  background: #FCF5F5;
+  color: #F03838;
+  padding: 20px 12px;
+}
+.post-stub a:hover .post-stub-tag {
+  background: #F03838;
+}
+
+.post-stub-tag {
+  background: #303030;
+  border-radius: 3px;
+  color: #FFF;
+  float: right;
+  font-size: 10px;
+  margin: 7px 0 0;
+  padding: 0 5px;
+  text-transform: uppercase;
+}
+
+.post-stub-title {
+  display: inline-block;
+  margin: 0;
+  text-transform: none; }
+
+.post-stub-description {
+  display: inline-block;
+  margin: 0;
+  text-transform: none; }
+
+.post-stub-date {
+  display: inline-block;
+  color: #424242;
+  font-size: 0.8rem
+}
+.post-stub-date:before {
+  content: "/ ";
+}
+
+.next-posts-link a,
+.previous-posts-link a {
+  display: block;
+  padding: 8px 11px; }
+
+span.post-tags a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 100%;
+  color: #F03838;
+  background-color: #F1F0EA;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.post-header {
+    border-bottom: 6px solid #303030;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+}
+
+.newer-posts, .older-posts {
+    float: left;
+    background: #F03838;
+    color: #FEFEFE !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 5px;
+    padding: 5px 10px 6px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.newer-posts:hover, .older-posts:hover {
+    background: #303030;
+    text-decoration: none;
+}

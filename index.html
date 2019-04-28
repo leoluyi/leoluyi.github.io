@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<header class="post-header">
+  <div class="avatar">
+    <img class="rounded-circle" src="{{ site.baseurl }}/public/img/{{ site.author.avatar }}" alt="Responsive image" width="120px" height="auto" align="right" style="float:right;margin-top:0.5em;margin-left:1em;">
+  </div>
+  <h1><strong>Hi, I'm Leo Lu</strong></h1>
+
+  <p>Coding for data | Data science | R and Python Notes</p>
+  {% include social.html %}
+</header>
+
+<!-- Convertkit - Start -->
+<!-- <script async id="_ck_148263" src="https://forms.convertkit.com/148263?v=6"></script> -->
+<!-- Convertkit - End -->
+
+<section class="container">
+  <h2 class="page-heading">Latest Posts</h2>
+  <ol id="latest-posts" class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li class="post-stub" >
+        <a href="{{ site.baseurl }}{{ post.url }}" title="Go to post detail">
+          <h4 class="post-stub-title">{{ post.title }}</h4>
+          <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+            {{ post.date | date: "%b %d, %Y" }}
+          </time>
+        </a>
+      </li>
+    {% endfor %}
+  </ol>
+
+  <div class="pagination">
+    <a class="older-posts" href="/blog">See all posts</a>
+  </div>
+</section>
