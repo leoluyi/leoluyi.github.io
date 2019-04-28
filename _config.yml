@@ -43,6 +43,10 @@ author:
   github: leoluyi
   avatar: profile.jpg
 
+# Theme
+lanyon-theme:
+  theme-color: theme-base-08
+
 # Custom vars
 version:             1.0.0
 
