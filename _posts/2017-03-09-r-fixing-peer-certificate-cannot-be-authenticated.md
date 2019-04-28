@@ -1,13 +1,10 @@
 ---
 layout: post
 title: '[R] Fixing "Peer certificate cannot be authenticated"'
-tags:
-- R
-- httr
-- Web Crawler
 date: 2017-03-09 15:52
 comments: true
-tags: R
+tags: [R, web crawler]
+categories: R
 ---
 
 On Windows machine:

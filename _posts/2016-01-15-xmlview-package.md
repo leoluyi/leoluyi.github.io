@@ -3,8 +3,10 @@ layout: post
 title: '在 RStudio 檢視 xml/html 的工具：xmlview Package'
 date: 2016-01-15 16:31
 comments: true
-tags: R
+tags: [R, web crawler]
+categories: R
 ---
+
 ![xml_view_ptt_xpath](https://lh3.googleusercontent.com/-jscbcVH-Yro/Vpiji5y2A5I/AAAAAAAAFUg/jjOgZ_EEthA/s0/xml_view_ptt_xpath.PNG "xml_view_ptt_xpath")
 
 在寫爬蟲的過程中，常需要針對取得的 html 檢查內容，並用 XPath 或 CSS selector 擷取所需要的資料區塊。但在使用 IDE 撰寫腳本時，要做到這些事必須要把 html 的文本內容 print 出來，或是另存成 html file 再用瀏覽器檢視；若測試 XPath 時，因無法很清楚地直接在 console 瀏覽 xml 的樹狀結構，所以原本需搭配 Chrome 的 [XPath Helper](https://chrome.google.com/webstore/detail/xpath-helper/hgimnogjllphhhkhlmebbmlgjoejdpjl) 會比較方便。

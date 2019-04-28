@@ -4,6 +4,7 @@ title: '[R] 字串操作：Regular Expression 及 stringr 套件'
 date: 2016-06-15 13:28
 comments: true
 tags: R
+categories: R
 ---
 
 There are some handy functions in the package `stringr` to be substituted for lousy base R string manipulation functions.

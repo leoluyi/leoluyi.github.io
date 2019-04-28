@@ -3,7 +3,8 @@ layout: post
 title: '台北圖書館自修室探勘'
 date: 2017-01-21 14:38
 comments: true
-tags: blog
+tags: library
+categories: journal
 published: false
 ---
 

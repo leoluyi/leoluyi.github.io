@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Example content
-tags: test
 excerpt_separator: <!--more-->
+tags: jekyll
+categories: jekyll
 published: true
 ---
 
