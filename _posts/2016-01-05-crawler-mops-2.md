@@ -4,8 +4,9 @@ title: '[R crawler] 公開資訊觀測站 (實作篇)'
 date: 2016-01-05 13:33
 featured-img: Jietu_20151230231209.png
 comments: true
-tags: R
 excerpt_separator: <!--more-->
+tags: [R, web crawler]
+categories: R
 ---
 
 在前一篇 [[R crawler] 公開資訊觀測站 (觀察篇) ](http://leoluyi.logdown.com/posts/400371-public-observatory)中，我們已經找到需要的資料在哪裡了，接下來就是用 R 將所需的資料抓回來。

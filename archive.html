@@ -5,25 +5,36 @@ title: Archives
 
 {% include search.html %}
 
-{% include archive.html %}
+{% include archive_tags.html %}
 
-<h3>Articles</h3>
-<div class="panel panel-default">
+<h2>Articles</h2>
+
+<div id="archives" class="panel panel-default">
   <div class="panel-body">
-    {% for post in site.posts %}
-    <div class="row">
-      <div class="col-sm-3 col-md-3 col-lg-3">
-        <h5 style="text-align: right">
-          {{ post.date | date: "%b %d, %Y" }}
-        </h5>
-      </div>
-      <div class="col-sm-9 col-md-9 col-lg-9">
-        <h5 style="text-align: left">
-          <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
-        </h5>
-      </div>
+  {% for category in site.categories %}
+    <div class="archive-group">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}"></div>
+      <p></p>
+
+      <h3 class="category-head">{{ category_name | capitalize }}</h3>
+      <a name="{{ category_name | slugize }}"></a>
+      {% for post in site.categories[category_name] %}
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-3">
+            <h5 style="text-align: right">
+              {{ post.date | date: "%b %d, %Y" }}
+            </h5>
+          </div>
+          <div class="col-sm-9 col-md-9 col-lg-9">
+            <h5 style="text-align: left">
+              <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+            </h5>
+          </div>
+        </div>
+      {% endfor %}
     </div>
-    {% endfor %}
+  {% endfor %}
   </div>
 </div>
 
