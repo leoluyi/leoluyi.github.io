@@ -4,7 +4,7 @@ title: '[R crawler] 公開資訊觀測站 (觀察篇)'
 date: 2016-01-02 17:04
 comments: true
 excerpt_separator: <!--more-->
-tags: [R, web crawler]
+tags: [R, web-crawler]
 categories: R
 ---
 

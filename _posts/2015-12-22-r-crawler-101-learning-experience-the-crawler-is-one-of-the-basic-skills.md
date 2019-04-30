@@ -3,7 +3,7 @@ layout: post
 title: '爬蟲是一種基本技能'
 date: 2015-12-22 17:23
 comments: true
-tags: [R, web crawler]
+tags: [R, web-crawler]
 categories: R
 ---
 

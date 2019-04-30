@@ -131,6 +131,9 @@ section.container {
   color: #F03838;
   padding: 20px 12px;
 }
+.post-stub a:hover * {
+  color: #F03838;
+}
 .post-stub a:hover .post-stub-tag {
   background: #F03838;
 }
@@ -159,7 +162,6 @@ section.container {
 .post-stub-date {
   display: inline-block;
   color: #424242;
-  font-size: 0.8rem
 }
 .post-stub-date:before {
   content: "/ ";
@@ -185,7 +187,6 @@ span.post-tags a {
     margin: 0 0 20px;
     padding: 0 0 20px;
     text-align: center;
-    /*text-transform: uppercase;*/
 }
 
 .newer-posts, .older-posts {

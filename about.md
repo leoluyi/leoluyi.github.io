@@ -24,3 +24,4 @@ I am specialized in translating the business problems into data-driven solutions
 Right now, I am **Data Scientist / Data Manager** at Taishin International Bank in Taiwan.
 Here, I document my journey learning about **data science** and **growth** all while teaching others.
 
+{% include social.html %}
