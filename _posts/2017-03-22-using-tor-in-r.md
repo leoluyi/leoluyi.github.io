@@ -3,7 +3,7 @@ layout: post
 title: '[R] Using TOR in R'
 date: 2017-03-22 14:06
 comments: true
-tags: [R, web crawler]
+tags: [R, web-crawler]
 categories: r
 ---
 

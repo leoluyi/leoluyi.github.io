@@ -5,7 +5,7 @@ date: 2016-01-05 13:33
 featured-img: Jietu_20151230231209.png
 comments: true
 excerpt_separator: <!--more-->
-tags: [R, web crawler]
+tags: [R, web-crawler]
 categories: R
 ---
 
