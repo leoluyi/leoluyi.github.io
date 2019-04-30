@@ -3,8 +3,8 @@ layout: post
 title: '免費圖庫及 icon 資源清單'
 date: 2016-06-20 10:57
 comments: true
-tags: [slides, vizualization]
-categories: vizualization
+tags: [presentation, vizualization]
+categories: Vizualization
 ---
 
 雖然都會搭配使用，但按照使用頻率排序；

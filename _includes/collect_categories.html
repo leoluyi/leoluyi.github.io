@@ -1,0 +1,10 @@
+<!-- http://longqian.me/2017/02/09/github-jekyll-tag/ -->
+{% capture categories_str %}{% for category in site.categories %}|{{ category | first | downcase }}{% endfor %}{% endcapture %}
+{% assign categories_array_raw = categories_str | split: '|' | sort | uniq %}
+
+{% assign categories_array = "" | split:"/" %}
+{% for category in categories_array_raw %}
+  {% if category != "" %}
+    {% assign categories_array = categories_array | push: category %}
+  {% endif %}
+{% endfor %}

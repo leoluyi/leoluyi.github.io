@@ -19,18 +19,20 @@ title: Home
 
 <section class="container">
   <h2 class="page-heading">Latest Posts</h2>
-  <ol id="latest-posts" class="post-list">
+  <ul id="latest-posts" class="post-list">
     {% for post in site.posts limit:5 %}
       <li class="post-stub" >
         <a href="{{ site.baseurl }}{{ post.url }}" title="Go to post detail">
           <h4 class="post-stub-title">{{ post.title }}</h4>
-          <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-            {{ post.date | date: "%b %d, %Y" }}
-          </time>
+            <small>
+              <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ post.date | date: "%b %d, %Y" }}
+              </time>
+          </small>
         </a>
       </li>
     {% endfor %}
-  </ol>
+  </ul>
 
   <div class="pagination">
     <a class="older-posts" href="/blog">See all posts</a>
