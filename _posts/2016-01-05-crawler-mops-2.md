@@ -7,6 +7,7 @@ comments: true
 excerpt_separator: <!--more-->
 tags: [R, web-crawler]
 category: R
+description: 使用 R 作為爬蟲工具，抓取公開資訊觀測站的公司資料，並將資料清理為可以儲存、分析的表格形式
 ---
 
 在前一篇 [[R crawler] 公開資訊觀測站 (觀察篇) ](http://leoluyi.logdown.com/posts/400371-public-observatory)中，我們已經找到需要的資料在哪裡了，接下來就是用 R 將所需的資料抓回來。

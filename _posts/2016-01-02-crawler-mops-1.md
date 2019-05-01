@@ -6,6 +6,7 @@ comments: true
 excerpt_separator: <!--more-->
 tags: [R, web-crawler]
 category: R
+description: 使用 R 作為爬蟲工具，自動化抓取公開資訊觀測站的公司資料。透過定義目標資料，觀察網站連線方式，找出網站阻擋連線的方法
 ---
 
 這次要來~~攻擊~~抓取的資料是「公開資訊觀測站」的公司資料，如同[前篇文章](http://leoluyi.logdown.com/posts/2015/12/22/r-crawler-101-learning-experience-the-crawler-is-one-of-the-basic-skills)所談到的：

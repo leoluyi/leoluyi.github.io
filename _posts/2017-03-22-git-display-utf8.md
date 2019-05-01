@@ -6,6 +6,7 @@ comments: true
 excerpt_separator: <!--more-->
 tags: git
 category: Git
+description: 在 Mac 使用 git status 或 git ls-files 時，若 Git 在顯示中文檔名出現類似下面的亂碼，這是因為 Git 預設只會印出 non-ASCII 字串，對於 utf8 的檔名或訊息，會用 quoted octal notation 印出
 ---
 
 在 Mac 使用 `git status` 或 `git ls-files` 時，若 Git 在顯示中文檔名出現類似下面的亂碼：

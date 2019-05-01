@@ -3,7 +3,7 @@ layout: post
 title: '[R] 字串操作：Regular Expression 及 stringr 套件'
 date: 2016-06-15 13:28
 comments: true
-tags: R
+tags: [R, regular-expression]
 category: R
 ---
 
