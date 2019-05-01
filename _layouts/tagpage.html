@@ -4,32 +4,33 @@ layout: default
 <div class="post">
 <header class="post-header">
   <h2>Tag: <code>{{ page.tag | slugify | capitalize }}</code></h2>
+  <div style="margin-top: 15px">
+    <a class="internal-link-btn" href="/archive">Archives</a>
+  </div>
 </header>
 
-<ul class="post-list">
-  {% for post in site.tags[page.tag] %}
-    <li class="post-stub" >
-      <a href="{{ site.baseurl }}{{ post.url }}" title="Go to post detail">
-        <div class="post-title">
-          <h4 class="post-stub-title">{{ post.title }}</h4>
-            <small>
-              <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-                {{ post.date | date: "%b %d, %Y" }}
-              </time>
-          </small>
-        </div>
-         <div class="post-description">
-           <small>{{ post.description }}</small>
-         </div>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="post-list">
+  <ul class="post-list">
+    {% for post in site.tags[page.tag] %}
+      <li class="post-stub" >
+        <a href="{{ site.baseurl }}{{ post.url }}" title="Go to post detail">
+          <div class="post-title">
+            <h4 class="post-stub-title">{{ post.title }}</h4>
+              <small>
+                <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                  {{ post.date | date: "%b %d, %Y" }}
+                </time>
+            </small>
+          </div>
+           <div class="post-description">
+             <small>{{ post.description }}</small>
+           </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <hr>
 
 {% include archive-tags.html %}
-
-<div class="pagination">
-  <a class="older-posts" href="/archive">Archives</a>
-</div>
