@@ -3,7 +3,7 @@ layout: post
 title: Example content
 excerpt_separator: <!--more-->
 tags: jekyll
-categories: jekyll
+category: jekyll
 published: true
 ---
 

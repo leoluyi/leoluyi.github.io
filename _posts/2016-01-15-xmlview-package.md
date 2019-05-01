@@ -4,7 +4,7 @@ title: '在 RStudio 檢視 xml/html 的工具：xmlview Package'
 date: 2016-01-15 16:31
 comments: true
 tags: [R, web-crawler]
-categories: R
+category: R
 ---
 
 ![xml_view_ptt_xpath](https://lh3.googleusercontent.com/-jscbcVH-Yro/Vpiji5y2A5I/AAAAAAAAFUg/jjOgZ_EEthA/s0/xml_view_ptt_xpath.PNG "xml_view_ptt_xpath")

@@ -8,7 +8,7 @@ title: About
 </p>
 
 <div class="avatar">
-  <img class="rounded-circle" src="{{ site.baseurl }}/public/img/{{ site.author.avatar }}" alt="Responsive image" width="180px" height="auto" align='right'>
+  <img class="rounded-circle" src="{{ site.baseurl }}/public/img/{{ site.author.avatar }}" alt="Responsive image" width="150px" height="auto" align='right'>
 </div>
 
 With more than 5-year experience focusing on data science career path,

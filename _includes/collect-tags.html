@@ -1,5 +1,5 @@
 <!-- http://longqian.me/2017/02/09/github-jekyll-tag/ -->
-{% assign rawtags = "" %}
+<!-- {% assign rawtags = "" %}
 {% for post in site.posts %}
   {% assign ttags = post.tags | join:'|' | append:'|' %}
   {% assign rawtags = rawtags | append:ttags %}
@@ -15,5 +15,16 @@
     {% unless tags contains tag %}
       {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
     {% endunless %}
+  {% endif %}
+{% endfor %}
+ -->
+<!-- http://longqian.me/2017/02/09/github-jekyll-tag/ -->
+{% capture tags_str %}{% for tag in site.tags %}|{{ tag | first | slugify }}{% endfor %}{% endcapture %}
+{% assign tags_array_raw = tags_str | split: '|' | sort | uniq %}
+
+{% assign tags_array = "" | split:"/" %}
+{% for tag in tags_array_raw %}
+  {% if tag != "" %}
+    {% assign tags_array = tags_array | push: tag %}
   {% endif %}
 {% endfor %}

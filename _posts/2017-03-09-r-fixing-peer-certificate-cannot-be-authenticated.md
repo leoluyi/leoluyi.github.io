@@ -4,7 +4,7 @@ title: '[R] Fixing "Peer certificate cannot be authenticated"'
 date: 2017-03-09 15:52
 comments: true
 tags: [R, web-crawler]
-categories: R
+category: R
 ---
 
 On Windows machine:

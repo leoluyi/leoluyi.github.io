@@ -3,29 +3,32 @@ layout: default
 ---
 <div class="post">
 <header class="post-header">
-  <h2>Tag: <code>{{ page.tag | capitalize}}</code></h2>
+  <h2>Tag: <code>{{ page.tag | slugify | capitalize }}</code></h2>
 </header>
 
 <ul class="post-list">
   {% for post in site.tags[page.tag] %}
     <li class="post-stub" >
       <a href="{{ site.baseurl }}{{ post.url }}" title="Go to post detail">
-        <h4 class="post-stub-title">{{ post.title }}</h4>
-          <small>
-            <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-              {{ post.date | date: "%b %d, %Y" }}
-            </time>
-        </small>
-        <br/>
+        <div class="post-title">
+          <h4 class="post-stub-title">{{ post.title }}</h4>
+            <small>
+              <time class="post-stub-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ post.date | date: "%b %d, %Y" }}
+              </time>
+          </small>
+        </div>
+         <div class="post-description">
+           <small>{{ post.description }}</small>
+         </div>
       </a>
-      {{ post.description }}
     </li>
   {% endfor %}
 </ul>
 
 <hr>
 
-{% include archive_tags.html %}
+{% include archive-tags.html %}
 
 <div class="pagination">
   <a class="older-posts" href="/archive">Archives</a>

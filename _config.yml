@@ -2,7 +2,8 @@
 # Setup
 title:               Leoluyi 呂奕
 tagline:             "Coding with Data"
-description:         'My journey learning data science.'
+description:         "My journey learning data science."
+keywords:            "Python, R, Data Science, Marketing Research, 資料科學, 數據科學, AI"
 permalink:           /:categories/:title
 baseurl:             ""
 url:                 https://leoluyi.tw
