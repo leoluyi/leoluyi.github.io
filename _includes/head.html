@@ -18,6 +18,9 @@
     {% endif %}
   </title>
 
+  <!-- Google Analytics -->
+  {% include analytics.html %}
+
   <!-- Bootstrap and other CSS CDN -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
@@ -37,7 +40,4 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
-
-  <!-- Google Analytics -->
-  {% include analytics.html %}
 </head>
