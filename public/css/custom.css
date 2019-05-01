@@ -33,7 +33,7 @@ blockquote p:lang(zh){
   font-family: "Avenir Next", "PT Sans", "STKaiti", "Kaiti", "cwTeXKai", "Microsoft JhengHei", sans-serif;
 }
 
-a:hover {
+.post-content a:hover {
   text-decoration-style: dotted;
 }
 
@@ -99,6 +99,26 @@ section.container {
     display: block;
     margin-top: -.5rem;
     margin-bottom: .5rem;
+}
+
+.post-description small {
+  color: #999;
+}
+
+.internal-link-btn {
+    background: #F03838;
+    color: #FEFEFE !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 5px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    border: 0;
+}
+
+.internal-link-btn:hover {
+    background: #303030;
+    text-decoration: none;
 }
 
 /* ============================================================ */
@@ -193,15 +213,14 @@ span.post-tags a {
 }
 
 .newer-posts, .older-posts {
-    float: left;
     background: #F03838;
     color: #FEFEFE !important;
+    float: left;
     font-size: 14px;
     font-weight: 600;
-    margin: 0 5px;
+    margin: 0 auto;
     padding: 5px 10px 6px;
     text-transform: uppercase;
-    margin: 0 auto;
 }
 .newer-posts:hover, .older-posts:hover {
     background: #303030;
