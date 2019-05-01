@@ -5,9 +5,10 @@ date: 2016-06-20 10:57
 comments: true
 tags: [presentation, vizualization]
 category: Vizualization
+description: 製作投影片可使用的免費圖庫及 icon 資源清單，都會搭配使用，下面按照使用頻率排序；附上使用經驗的短評以供不同時候快速選擇。
 ---
 
-雖然都會搭配使用，但按照使用頻率排序；
+製作投影片可使用的免費圖庫及 icon 資源清單，都會搭配使用，下面按照使用頻率排序；
 附上使用經驗的短評以供不同時候快速選擇。
 
 ## icon

@@ -13,9 +13,10 @@ On Windows machine:
 Error in curl::curl_fetch_memory(url, handle = handle) :
   Peer certificate cannot be authenticated with given CA certificates
 ```
+
 The machine in question is sitting behind a gnarly firewall and proxy, which I suspect are the source of the problem. I also need to use `--ignore-certificate-errors` when running chromium-browser, which points to the same issue.
 
-Solution
+**Solution**
 
 ```{r}
 library(httr)

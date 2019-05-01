@@ -5,6 +5,7 @@ date: 2015-12-22 17:23
 comments: true
 tags: [R, web-crawler]
 category: R
+description: 大部分有用的資訊其實在網路上便可取得，有更多時候這些網路上的資料相當豐富，不論是整理好的開放資料或是一些非結構資料，若能將資訊系統性且有效率地擷取下來，不僅會節省非常多時間，而且能獲得更多應用的機會。以前許多資料源取得的限制， 不再是個無解的難題之後，會釋放出更自由的想像空間，更大的挑戰便是整合資訊的應用，以及如何從中淘金了
 ---
 
 <img class="center" src="https://lh3.googleusercontent.com/-G3IkbsWAr7k/Vnkfv23pn5I/AAAAAAAAFBU/-JbbCCCiw5g/s600/catchbug-6_1.png" alt="catchbug">
