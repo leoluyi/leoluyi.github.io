@@ -5,9 +5,9 @@ title: Archives
 
 {% include search.html %}
 
-{% include archive_tags.html %}
+{% include archive-tags.html %}
 
-{% include collect_categories.html %}
+{% include collect-categories.html %}
 
 <br/>
 
@@ -18,11 +18,11 @@ title: Archives
 
     {% for category_name in categories_array %}
       <div class="archive-group">
-        <div id="#{{ category_name | slugize }}"></div>
+        <div id="#{{ category_name | slugify }}"></div>
         <p></p>
 
         <h3 class="category-head">{{ category_name | capitalize }}</h3>
-        <a name="{{ category_name | slugize }}"></a>
+        <a name="{{ category_name | slugify }}"></a>
 
         <ul id="latest-posts" class="post-list">
           {% for post in site.posts %}
@@ -38,7 +38,7 @@ title: Archives
                 </h5>
               </div>
             </div> -->
-            {% assign cate = post.categories | first | downcase %}
+            {% assign cate = post.categories | first | slugify %}
             {% if cate == category_name %}
             <li class="post-stub" >
               <a href="{{ site.baseurl }}{{ post.url }}" title="Go to post detail">

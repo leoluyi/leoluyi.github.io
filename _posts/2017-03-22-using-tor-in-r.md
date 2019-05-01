@@ -4,12 +4,13 @@ title: '[R] Using TOR in R'
 date: 2017-03-22 14:06
 comments: true
 tags: [R, web-crawler]
-categories: r
+category: R
+description: 使用 Tor 來匿名進行網路爬蟲，在 R 裡面要如何辦到呢？本文會介紹 curl、httr、環境變數等不同的設置方法
 ---
 
 這篇要寫得比較隱晦一些。有時候需要 TOR 來隱藏自己的 IP，然而在 R 裡面要如何辦到呢？
 
-## TOR 有洋蔥
+## Install TOR -- 有洋蔥
 
 [TOR installation guide](https://www.torproject.org/docs/installguide.html.en)
 

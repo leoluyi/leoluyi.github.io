@@ -4,7 +4,7 @@ title: '爬蟲是一種基本技能'
 date: 2015-12-22 17:23
 comments: true
 tags: [R, web-crawler]
-categories: R
+category: R
 ---
 
 <img class="center" src="https://lh3.googleusercontent.com/-G3IkbsWAr7k/Vnkfv23pn5I/AAAAAAAAFBU/-JbbCCCiw5g/s600/catchbug-6_1.png" alt="catchbug">

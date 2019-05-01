@@ -5,7 +5,7 @@ date: 2017-03-22 15:41
 comments: true
 excerpt_separator: <!--more-->
 tags: git
-categories: Git
+category: Git
 ---
 
 在 Mac 使用 `git status` 或 `git ls-files` 時，若 Git 在顯示中文檔名出現類似下面的亂碼：
