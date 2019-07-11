@@ -36,7 +36,7 @@ Reference
 - [STOCK UP](https://www.sitebuilderreport.com/stock-up): Searching 14,364 free stock photos across 28 websites
 - [Visual Hunt](https://visualhunt.com/): 大學生玩簡報目前最推薦的圖庫網站
 - [istockphoto](http://www.istockphoto.com/): 專業付費圖片
-
+- [isoflat](https://isoflat.com/): 2.5D
 
 ## 色票
 
@@ -44,11 +44,11 @@ Reference
 
 - [Colorbrewer](http://colorbrewer2.org/)：Rcolorbrewer、地圖
 
-
 ### 設計配色用
 
 - [手動選色票](http://www.palettable.io/)：Dataman 大推
 - [Palettes](https://drewnoakes.com/palettes/)：色票精華，數量少
+- [colormind](http://colormind.io/): AI generated palettes
 
 ### 看別人的設計
 
