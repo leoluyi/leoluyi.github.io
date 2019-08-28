@@ -57,6 +57,10 @@ Reference
 
 ### 上傳圖片選色
 
+- [brandcolors](http://brandcolors.net/)
+- [lolcolors](https://www.webdesignrankings.com/resources/lolcolors/)
+- [coolors](https://coolors.co/)
+- [colordrop](https://colordrop.io/)
 - [Color Hunter](http://www.colorhunter.com/)
 - [imgr.co](http://imgr.co/)
 - [Pictaculous](http://pictaculous.com/)
